@@ -10,6 +10,30 @@ A collection of course materials and notes for learning Grafana — covering con
 | 02 | [`02-dashboards-monitoring-grafana/`](./02-dashboards-monitoring-grafana/) | Dashboards and Monitoring with Grafana — advanced dashboard design, data visualization techniques, team solutions |
 | 03 | [`03-grafana-expanded-capabilities/`](./03-grafana-expanded-capabilities/) | Grafana Expanded Capabilities — LGTM stack (Loki, Mimir, Tempo, Alloy), advanced storage, RBAC, and HTTP API automation |
 
+## Structure
+
+```
+grafana/
+├── 01-grafana-concepts-basic-config/
+│   └── grafana_concepts_notes.ipynb
+├── 02-dashboards-monitoring-grafana/
+│   ├── 01-advanced-dashboard-design/
+│   │   └── understanding-advanced-dashboard-design-slides.pdf
+│   ├── 02-data-visualization-techniques/
+│   │   └── exploring-data-visualization-techniques-slides.pdf
+│   ├── 03-complete-team-solution/
+│   │   └── building-a-complete-grafana-team-solution-slides.pdf
+│   └── dashboards_monitoring_notes.ipynb
+└── 03-grafana-expanded-capabilities/
+    ├── 01-advanced-storage-tracing-rules/
+    │   └── demos/
+    │       ├── mimir-stack-demo.md
+    │       └── loki-prometheus-stack-demo.md
+    ├── 02-integrations-and-automation/
+    │   └── full-monitoring-stack-demo.md
+    └── expanded_capabilities_notes.ipynb
+```
+
 ## Prerequisites
 
 - Basic familiarity with Linux command line
