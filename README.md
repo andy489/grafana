@@ -17,12 +17,6 @@ grafana/
 ├── 01-grafana-concepts-basic-config/
 │   └── grafana_concepts_notes.ipynb
 ├── 02-dashboards-monitoring-grafana/
-│   ├── 01-advanced-dashboard-design/
-│   │   └── understanding-advanced-dashboard-design-slides.pdf
-│   ├── 02-data-visualization-techniques/
-│   │   └── exploring-data-visualization-techniques-slides.pdf
-│   ├── 03-complete-team-solution/
-│   │   └── building-a-complete-grafana-team-solution-slides.pdf
 │   └── dashboards_monitoring_notes.ipynb
 └── 03-grafana-expanded-capabilities/
     ├── 01-advanced-storage-tracing-rules/
