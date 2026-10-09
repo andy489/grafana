@@ -1,12 +1,13 @@
 # Grafana Learning Resources
 
-A collection of course materials and notes for learning Grafana — covering concepts, installation, configuration, and data source integration.
+A collection of course materials and notes for learning Grafana — covering concepts, installation, configuration, dashboards, monitoring, and team solutions.
 
 ## Contents
 
-| Module | Description |
-|--------|-------------|
-| [`grafana-concepts-basic-config/`](./grafana-concepts-basic-config/) | Grafana Concepts and Basic Configuration — slide notes and Jupyter notebook |
+| # | Module | Description |
+|---|--------|-------------|
+| 01 | [`01-grafana-concepts-basic-config/`](./01-grafana-concepts-basic-config/) | Grafana Concepts and Basic Configuration — what is Grafana, installation options, adding data sources |
+| 02 | [`02-dashboards-monitoring-grafana/`](./02-dashboards-monitoring-grafana/) | Dashboards and Monitoring with Grafana — advanced dashboard design, data visualization techniques, team solutions |
 
 ## Prerequisites
 
@@ -17,12 +18,14 @@ A collection of course materials and notes for learning Grafana — covering con
 
 ```bash
 # Clone this repo
-git clone <repo-url>
+git clone https://github.com/andy489/grafana.git
 cd grafana
 
-# Open the notes notebook
-cd grafana-concepts-basic-config
-jupyter notebook grafana_concepts_notes.ipynb
+# Module 01 — Grafana concepts and basic config
+jupyter notebook 01-grafana-concepts-basic-config/grafana_concepts_notes.ipynb
+
+# Module 02 — Dashboards and monitoring
+jupyter notebook 02-dashboards-monitoring-grafana/dashboards_monitoring_notes.ipynb
 ```
 
 ## Key Links
