@@ -1,7 +1,5 @@
 # Grafana Concepts and Basic Configuration
 
-**Instructor:** Craig Golightly, Senior Software Consultant
-
 Slide notes and structured reference material extracted from the course PDFs, organized as a Jupyter notebook.
 
 ## Modules

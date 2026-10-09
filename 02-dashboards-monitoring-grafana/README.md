@@ -1,8 +1,5 @@
 # Dashboards and Monitoring with Grafana
 
-**Instructor:** David Clinton — Data Analyst | Linux System Administrator  
-bootstrap-it.com | linkedin.com/in/dbclinton
-
 Slide notes and structured reference material extracted from the course PDFs, organized as a Jupyter notebook.
 
 ## Modules
