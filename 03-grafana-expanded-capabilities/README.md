@@ -7,17 +7,22 @@ Slide notes and structured reference material extracted from the course PDFs, or
 
 ## Modules
 
-| # | Title | Topics |
-|---|-------|--------|
-| 01 | Introduction to the Grafana Product Ecosystem | Loki, Mimir, Tempo, Alloy — the LGTM stack and external tool integration |
-| 02 | Enabling Advanced Storage, Tracing, and Rules | Loki stack architecture, Mimir S3 storage config, PromQL for Mimir, Tempo trace correlation |
-| 03 | Advanced Grafana Integrations and Automation | Custom dashboards, RBAC roles, RBAC YAML provisioning, HTTP API, service accounts |
+| # | Folder | Title | Topics |
+|---|--------|-------|--------|
+| 01 | [`01-advanced-storage-tracing-rules/`](./01-advanced-storage-tracing-rules/) | Introduction to the Grafana Product Ecosystem | Loki, Mimir, Tempo, Alloy — the LGTM stack and external tool integration |
+| 02 | [`02-integrations-and-automation/`](./02-integrations-and-automation/) | Advanced Grafana Integrations and Automation | Custom dashboards, RBAC roles, RBAC YAML provisioning, HTTP API, service accounts |
 
 ## Files
 
 ```
 03-grafana-expanded-capabilities/
-└── expanded_capabilities_notes.ipynb   # All course notes in one notebook
+├── 01-advanced-storage-tracing-rules/
+│   └── demos/
+│       ├── mimir-stack-demo.md           # Mimir + Alloy + Prometheus + Grafana compose
+│       └── loki-prometheus-stack-demo.md # Loki + Alloy + Prometheus + Grafana compose
+├── 02-integrations-and-automation/
+│   └── full-monitoring-stack-demo.md     # Prometheus + Blackbox + Alertmanager + Nginx + Grafana compose
+└── expanded_capabilities_notes.ipynb     # All course notes in one notebook
 ```
 
 ## Usage

@@ -15,7 +15,7 @@ Slide notes and structured reference material extracted from the course PDFs, or
 ## Files
 
 ```
-grafana-concepts-basic-config/
+01-grafana-concepts-basic-config/
 └── grafana_concepts_notes.ipynb   # All course notes in one notebook
 ```
 

@@ -17,6 +17,12 @@ Slide notes and structured reference material extracted from the course PDFs, or
 
 ```
 02-dashboards-monitoring-grafana/
+├── 01/
+│   └── understanding-advanced-dashboard-design-slides.pdf
+├── 02/
+│   └── exploring-data-visualization-techniques-slides.pdf
+├── 03/
+│   └── building-a-complete-grafana-team-solution-slides.pdf
 └── dashboards_monitoring_notes.ipynb   # All course notes in one notebook
 ```
 
