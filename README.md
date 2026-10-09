@@ -8,6 +8,7 @@ A collection of course materials and notes for learning Grafana — covering con
 |---|--------|-------------|
 | 01 | [`01-grafana-concepts-basic-config/`](./01-grafana-concepts-basic-config/) | Grafana Concepts and Basic Configuration — what is Grafana, installation options, adding data sources |
 | 02 | [`02-dashboards-monitoring-grafana/`](./02-dashboards-monitoring-grafana/) | Dashboards and Monitoring with Grafana — advanced dashboard design, data visualization techniques, team solutions |
+| 03 | [`03-grafana-expanded-capabilities/`](./03-grafana-expanded-capabilities/) | Grafana Expanded Capabilities — LGTM stack (Loki, Mimir, Tempo, Alloy), advanced storage, RBAC, and HTTP API automation |
 
 ## Prerequisites
 
@@ -26,6 +27,9 @@ jupyter notebook 01-grafana-concepts-basic-config/grafana_concepts_notes.ipynb
 
 # Module 02 — Dashboards and monitoring
 jupyter notebook 02-dashboards-monitoring-grafana/dashboards_monitoring_notes.ipynb
+
+# Module 03 — Grafana expanded capabilities
+jupyter notebook 03-grafana-expanded-capabilities/expanded_capabilities_notes.ipynb
 ```
 
 ## Key Links
